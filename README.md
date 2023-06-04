@@ -36,11 +36,12 @@ Description:
    
    Sample Response :  
 
-         ```
-          {
-              "status" : "Running"
-          }                
-         ``` 
+   ```
+   {
+    "status" : "running"
+   }
+   ```
+          
    
 3. Inside the src folder made various controller, entity, dao and service classes. Controller classes are used to address the request. Service Classes are used for providing services to Controller classes and Dao classes is used for accessing database and providing data to Service Layer.
 
