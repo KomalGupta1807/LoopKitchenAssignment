@@ -15,25 +15,29 @@ Description:
 1. In the first API /trigger_report endpoint, a unique report id will be generated when get hit.
 2. In the second API /get_report endpoint, status of id will be shown whether Running or Completed.
 
-   API 1 Sample
-   Sample Request  : 127.0.0.1:1010/trigger_report
+   API 1 
+   Sample Request  :
+   `127.0.0.1:1010/trigger_report`
    Sample Response : 
    
   ```
   {
-      "report_id" : "abcd-123-sde"
+      "id" : "abcd-123-sde"
   }
   ```
                      
    
-   API 2 Sample
-   Sample Request : 127.0.0.1:1010/get_report/abcd-123-sde
-   Sample Response : 
-                     {
-                      "report_id" : "abcd-123-sde",
-                      "status" : "Running"
-                     }
+   API 2 
+   Sample Request :
    
+   ` 127.0.0.1:1010/get_report/abcd-123-sde`
+   Sample Response :  
+   
+   ```
+    {
+        "status" : "Running"
+    }                }
+   ``` 
    
 3. Inside the src folder made various controller, entity, dao and service classes. Controller classes are used to address the request. Service Classes are used for providing services to Controller classes and Dao classes is used for accessing database and providing data to Service Layer.
 
