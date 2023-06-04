@@ -20,25 +20,24 @@ Description:
    `127.0.0.1:1010/trigger_report`
    
    Sample Response :
-   
-        ```
-        {
-            "id" : "abcd-123-sde"
-        }
-        
-        ```
+    
+   ```
+   {
+    "id" : "abcd-123-sde"
+   }
+   ```
+       
                      
    
    API 2 
    Sample Request :
-   
    ` 127.0.0.1:1010/get_report/abcd-123-sde`
    
    Sample Response :  
 
    ```
    {
-    "status" : "running"
+    "status" : "Running"
    }
    ```
           
