@@ -15,6 +15,7 @@ Description:
 1. In the first API /trigger_report endpoint, a unique report id will be generated when get hit.
 2. In the second API /get_report endpoint, status of id will be shown whether Running or Completed.
 
+
    API 1 
    Sample Request  :
    `127.0.0.1:1010/trigger_report`
