@@ -19,11 +19,13 @@ Description:
    Sample Request  :
    `127.0.0.1:1010/trigger_report`
    
-   Sample Response : 
+   Sample Response :
+   
         ```
         {
             "id" : "abcd-123-sde"
         }
+        
         ```
                      
    
@@ -32,7 +34,7 @@ Description:
    
    ` 127.0.0.1:1010/get_report/abcd-123-sde`
    
-         Sample Response :  
+   Sample Response :  
 
          ```
           {
