@@ -31,7 +31,7 @@ Description:
    
    API 2 
    Sample Request :
-   ` 127.0.0.1:1010/get_report/abcd-123-sde`
+   `127.0.0.1:1010/get_report/abcd-123-sde`
    
    Sample Response :  
 
